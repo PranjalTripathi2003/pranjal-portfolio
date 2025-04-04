@@ -6,6 +6,7 @@ import { SiJavascript, SiTypescript, SiPython, SiC, SiPostgresql,
          SiIntellijidea, SiGit, SiFigma, SiPostman, SiMysql } from 'react-icons/si';
 import { VscVscode } from "react-icons/vsc";
 import { FaJava } from "react-icons/fa";
+import { TbSql } from "react-icons/tb";
 import HeatMap from './components/HeatMap';
 import { useUIInteractions } from './hooks/useUIInteractions';
 
@@ -234,8 +235,8 @@ function App() {
                   <div className="text-sm text-gray-300">Java</div>
                 </div>
                 <div className="bg-gray-700 p-4 rounded-lg text-center">
-                  <SiPostgresql className="w-8 h-8 mx-auto text-blue-400 mb-2" />
-                  <div className="text-sm text-gray-300">PostgreSQL</div>
+                  <TbSql className="w-8 h-8 mx-auto text-blue-400 mb-2" />
+                  <div className="text-sm text-gray-300">SQL</div>
                 </div>
               </div>
             </div>
@@ -266,6 +267,10 @@ function App() {
                 <div className="bg-gray-700 p-4 rounded-lg text-center">
                   <SiSocketdotio className="w-8 h-8 mx-auto text-blue-400 mb-2" />
                   <div className="text-sm text-gray-300">Socket.io</div>
+                </div>
+                <div className="bg-gray-700 p-4 rounded-lg text-center">
+                  <SiPostgresql className="w-8 h-8 mx-auto text-blue-400 mb-2" />
+                  <div className="text-sm text-gray-300">PostgreSQL</div>
                 </div>
                 <div className="bg-gray-700 p-4 rounded-lg text-center">
                   <SiTailwindcss className="w-8 h-8 mx-auto text-cyan-400 mb-2" />
