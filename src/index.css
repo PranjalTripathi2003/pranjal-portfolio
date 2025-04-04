@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #111827;
+}
+
+/* Custom styles for GitHub calendar */
+.react-activity-calendar {
+  width: 100%;
+  max-width: 800px;
+}
+
+.react-activity-calendar__day {
+  border-radius: 2px;
+}
