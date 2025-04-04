@@ -26,7 +26,7 @@ function App() {
         <nav className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">
-              PT
+              pt
             </h1>
             <div className="flex gap-6">
               <a href="#about" className="hover:text-cyan-400 transition-colors">About</a>
@@ -235,7 +235,7 @@ function App() {
                 </div>
                 <div className="bg-gray-700 p-4 rounded-lg text-center">
                   <SiPostgresql className="w-8 h-8 mx-auto text-blue-400 mb-2" />
-                  <div className="text-sm text-gray-300">SQL</div>
+                  <div className="text-sm text-gray-300">PostgreSQL</div>
                 </div>
               </div>
             </div>
